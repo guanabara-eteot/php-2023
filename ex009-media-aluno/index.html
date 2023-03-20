@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula PHP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Informe as notas do aluno</h1>
+        <form action="notas.php" method="get">
+            <label for="disc">Disciplina</label>
+            <select name="disc" id="disc">
+                <option value="Aplicações Web">APLWEB</option>
+                <option value="Análise e Projeto de Sistemas">APS</option>
+                <option value="Banco de Dados">BD</option>
+                <option value="Fundamentos do Design II">DESIGN</option>
+                <option value="Linguagem Técnica de Programação Web">LTPW</option>
+                <option value="Redes de Comunicação">REDE</option>
+            </select>
+            <label for="n1">Nota 1: </label>
+            <input type="number" name="n1" id="n1" step="0.5">
+            <label for="n2">Nota 1: </label>
+            <input type="number" name="n2" id="n2" step="0.5">
+            <label for="n3">Nota 1: </label>
+            <input type="number" name="n3" id="n3" step="0.5">
+            <input type="submit" value="Calcular">
+        </form>
+    </main>
+</body>
+</html>
