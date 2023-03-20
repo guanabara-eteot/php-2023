@@ -1,0 +1,55 @@
+EXERCÍCIOS PHP 
+
+1 - Crie um script PHP que peça o nome do visitante e mostre uma mensagem de boas-vindas.
+
+2 - Crie um script PHP que leia dois números e mostre a soma entre eles.
+
+3 - Crie um script PHP que pergunte quantos R$ a pessoa tem e mostre quantos US$ ela consegue comprar.
+
+4 - Aprimore o exercício anterior para que seja possível capturar a cotação de algum site que tenha uma API (ex. Banco Central do Brasil)
+
+5 - Crie um script PHP que leia um número Real e mostre na tela a parte inteira e a parte fracionária do número.
+
+6 - Crie um script PHP que leia um número, calcule e mostre a sua terça parte.
+
+7 - Crie um script PHP que solicite o dividendo e o divisor de uma divisão inteira, mostrando no final o quociente e o resto da operação.
+
+8 - Crie um script PHP que leia o salário de uma pessoa e mostre quantos salários mínimos ela ganha.
+
+9 - Crie um script PHP que leia as três notas do aluno em LTPW2 e mostre a sua média anual.
+
+10 - Crie um script PHP que leia um número e mostre na tela a sua raiz quadrada e a sua raiz cúbica.
+
+11 - Crie um script PHP que leia um intervalo de números (mínimo e máximo) e sorteie um número inteiro que esteja entre os dois.
+
+12 - Faça um script PHP que leia dois números inteiros e mostre qual deles é o maior valor. Considere também a possibilidade deles serem iguais.
+
+13 - Escreva um script PHP que leia um número e mostre se ele é par ou ímpar.
+
+14 - Desenvolva um script PHP que leia o ano de nascimento de uma pessoa e baseado no ano atual (pegar pelo sistema), mostrar a sua idade e se ela é ou não maior de idade (21 anos ou mais).
+
+15 - Crie um script PHP que leia o preço de um produto e mostre qual será o seu preço na liquidação, sabendo que:
+   - Produtos que custam menos de R$100 ganham 10% de desconto
+   - Produtos que custam de R$100 a R$1000 ganham 15% de desconto
+   - Produtos acima de R$1000 ganham 18% de desconto
+
+16 - Desenvolva um programa que leia um ano qualquer e mostre se ele já passou ou não. Mostre também quantos anos faltam ou quantos anos já se passaram, tomando como referência o ano atual.
+
+17 - No Brasil, a eleição ocorre seguindo as seguintes regras:
+   - Com 16 anos (completos) ou menos, o voto não é permitido;
+   - Acima de 16 e abaixo de 18 anos (incompletos) e também para quem tem mais de 70 anos, o voto é facultativo;
+   - Entre 18 anos e 69 anos (completos) o voto é obrigatório;
+Faça um script que leia o ano de nascimento de uma pessoa, mostre a sua idade e, baseado nas regras acima, mostre se ela vota ou não.
+
+18 - O Índice de Massa Corporal (IMC) é uma medida internacional para determinar se uma pessoa está no seu peso ideal. Faça um programa PHP que leia  o pesso (em Kg) de uma pessoa e sua altura (em metros). O IMC é calculado da seguinte maneira:
+IMC =   peso
+      --------
+       altura²
+Seu programa deverá calcular o IMC e mostrar a situação da pessoa, de acordo com os parâmetros a seguir:
+
+   - Abaixo de 17 = Muio abaixo do peso
+   - Entre 17 e 18.49 = Abaixo do peso
+   - Entre 18.5 e 24.99 = Peso normal
+   - Entre 25 e 29.99 = Acima do peso
+   - Entre 30 e 39.99 = Obesidade
+   - Acima de 40 = Obesidade mórbida
